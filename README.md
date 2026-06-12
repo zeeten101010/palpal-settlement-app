@@ -308,5 +308,7 @@ supabase/cash_daily_items_migration.sql
 
 - v30에서 자금현황 날짜별 조회를 수정하면서 사용하는 created_at/updated_at 필드를 CashItem 타입에 추가했습니다.
 - Vercel 빌드 실패 가능성을 수정했습니다.
+
+- deploy trigger 2026-06-12
 - 자금현황은 선택 기준일 데이터만 불러오고, 이전 날짜 자금일보 기록은 유지됩니다.
 - DB 구조 변경 없음
